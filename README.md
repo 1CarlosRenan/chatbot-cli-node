@@ -26,7 +26,11 @@ cd chatbot-cli-node
 
 2. Dependências:
 
-Este projeto não possui dependências externas além do próprio Node.js.
+```bash
+npm install
+```
+
+Passo opcional, pois apenas o Jest é utilizado como dependência para rodar um único teste.
 
 3. Certifique-se de que seu package.json tenha:
 
@@ -51,6 +55,7 @@ O chatbot irá iniciar e mostrar o menu de opções.
 /states        → Estados da aplicação (menu, consulta, saída)
 /services      → Serviços externos (consulta de APIs)
 /utils         → Utilitários (input do usuário, logger)
+/test          → Testes unitários
 index.js       → Ponto de entrada da aplicação
 ```
 
